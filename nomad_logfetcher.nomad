@@ -42,7 +42,7 @@ job "log-shipping" {
       }
 
       config {
-        image = "sofixa/nomad_follower:latest"
+        image = "Aiven-Open/nomad_logfetcher:latest"
       }
 
       resources {
